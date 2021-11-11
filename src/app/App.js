@@ -20,6 +20,7 @@ function App() {
         <ResultPanel tipAmount={people === 0 || people === '' ? 0 : (bill * percent) / people}
           total={people === 0 || people === '' ? 0 : ((bill * percent) / people) + (bill / people)} />
       </div>
+      <h1>Welcome to Github pages</h1>
     </main>
   );
 }
