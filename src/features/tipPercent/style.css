@@ -1,0 +1,21 @@
+.tip-percent {
+    padding: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-height: 50px;
+}
+
+.chosen-percent {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+@media only screen and (max-width: 375px) {
+    .tip-percent {
+        padding: 0px;
+    }
+}
